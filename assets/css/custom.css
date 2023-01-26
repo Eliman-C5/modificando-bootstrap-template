@@ -5,13 +5,17 @@
   z-index: 10;
 }
 
+.get-started {
+  margin-bottom: 40px;
+}
+
+.hero-box-title {
+  padding-top: 50px;
+}
+
 .my-logo {
   height: 55px;
   width: 55px;
-}
-
-.my-own-color {
-  color: #fff;
 }
 
 .image-book-box {

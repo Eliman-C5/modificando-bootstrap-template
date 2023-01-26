@@ -19,13 +19,14 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #fa2606;
-  --color-secondary: #1540b4;
+  --color-primary: #345bc4;
+  --color-secondary: #fa2606;
+  --bg-color: #345bc4;
   /*  */
   --fonts-color: #222222;
-  --main-color: #FFF;
-  --secondary-color: #1540b4;
-  --navbar-color: #fa2606;
+  --main-color: #345bc4;
+  --secondary-color: #fa2606;
+  --navbar-color: #345bc4;
 }
 
 /* Smooth scroll behavior */
@@ -807,7 +808,8 @@ section {
 --------------------------------------------------------------*/
 .stats-counter {
   padding: 40px 0;
-  background-color: var(--color-secondary);
+  /* background-color: var(--color-secondary); */
+  color: var(--color-default)
 }
 
 .stats-counter .stats-item {
@@ -1495,7 +1497,7 @@ section {
   margin: 30px auto 30px auto;
   width: 70px;
   height: 70px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1535,7 +1537,7 @@ section {
 
 .pricing h4 {
   font-size: 48px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: 700;
   font-family: var(--font-secondary);
   margin-bottom: 0;
@@ -1919,6 +1921,7 @@ section {
   width: 100%;
   position: relative;
   padding: 30px 0 0 0;
+  background: var(--bg-color);
 }
 
 @media (min-width: 1365px) {
@@ -2003,18 +2006,24 @@ section {
 }
 
 .hero .icon-box {
-  padding: 60px 30px;
+  padding: 40px 10px;
   position: relative;
   overflow: hidden;
-  background: var(--secondary-color);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: #3c63cffb;
+  /* background: var(--secondary-color); */
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
   height: 100%;
   width: 100%;
-  top: -50%;
   text-align: center;
+}
+
+.hero .icon-boxes {
+  padding-bottom: 60px;
+  margin-top: 60px;
 }
 
 @media (max-width: 650px) {
@@ -2026,7 +2035,7 @@ section {
 .hero .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .hero .icon-box .title a {
