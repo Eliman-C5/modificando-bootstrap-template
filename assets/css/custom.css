@@ -5,6 +5,41 @@
   z-index: 10;
 }
 
+.precios-desc {
+  font-size: 18px;
+}
+
+.logos-header {
+  background-color: #284db1;
+}
+
+.mail-header {
+  color: #fff;
+}
+
+.logo-social-media {
+  height: 100%;
+  width: 100%;
+}
+
+.member-text {
+  text-align: left;
+}
+
+.profesor-img {
+  height: 260px;
+  object-fit: cover;
+  width: 275px;
+  box-shadow: 1px 2px 2px 1px;
+}
+
+@media screen and (min-width: 1024px) {
+  .profesor-img {
+    height: 225px;
+    width: 240px;
+  }
+}
+
 .get-started {
   margin-bottom: 40px;
 }

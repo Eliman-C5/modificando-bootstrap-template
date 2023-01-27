@@ -270,7 +270,6 @@ section {
 .topbar .contact-info i a,
 .topbar .contact-info i span {
   padding-left: 5px;
-  color: var(--fonts-color);
 }
 
 @media (max-width: 575px) {
@@ -514,7 +513,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #fa2606;
+    background: #345bc4;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -1414,7 +1413,7 @@ section {
 }
 
 .team .member img {
-  border-radius: 10px;
+  border-radius: 50%;
   overflow: hidden;
 }
 
