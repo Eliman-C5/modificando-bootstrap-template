@@ -610,7 +610,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgb(250, 38, 6, .4);
+    background: rgb(52, 91, 196, .4);
     z-index: 9996;
   }
 }
